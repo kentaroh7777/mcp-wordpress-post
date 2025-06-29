@@ -1,0 +1,37 @@
+{
+  "name": "mcp-wordpress-post",
+  "version": "1.0.0",
+  "description": "WordPress MCP Server specialized for post management with file-path based image upload",
+  "type": "module",
+  "main": "build/posts-only.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/posts-only.js",
+    "dev": "tsc -w",
+    "debug-playwright": "node test/debug/wordpress-image-debug.js",
+    "debug-mcp": "node test/debug/mcp-image-test.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.1",
+    "axios": "^1.8.4",
+    "zod": "^3.24.3",
+    "dotenv": "^16.0.0",
+    "form-data": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.30",
+    "typescript": "^5.0.0",
+    "playwright": "^1.40.0"
+  },
+  "keywords": [
+    "wordpress",
+    "mcp",
+    "api",
+    "ai",
+    "assistant",
+    "post-management",
+    "file-upload"
+  ],
+  "author": "taroken",
+  "license": "MIT"
+} 

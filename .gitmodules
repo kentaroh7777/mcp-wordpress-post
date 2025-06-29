@@ -1,0 +1,3 @@
+[submodule "original-server"]
+	path = original-server
+	url = https://github.com/prathammanocha/wordpress-mcp-server.git
